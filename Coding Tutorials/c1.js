@@ -7,8 +7,8 @@ for(i=0; i<1000; i++)
 	var temp;
 	while(b>0)
 	{
-		temp=b%100;
-		if(temp==22){flag=1;}
+		temp=b%10;
+		if(temp==7){flag=1;}
 		b=parseInt(b/10);
 	}
 	if(flag==1){
